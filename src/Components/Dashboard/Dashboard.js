@@ -45,7 +45,10 @@ export default class Dashboard extends Component{
             <div id="article-links"></div>
 
             <h2 style={{textAlign:'center'}}>Follow Us</h2>
-            <div id="social-media"></div>
+            <div id="social-media" style={{display:'flex', flexDirection:'row', justifyContent:'center'}}>
+                <div id="fb-logo"></div>
+                <div id="insta-logo"></div>
+            </div>
             
         </div>
 

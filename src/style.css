@@ -73,8 +73,36 @@ html{
     object-fit: cover;
 }
 
-.featured-row{
+.featured-row, .locations{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
+
+#map-image{
+    background-image: url("./images/location-image.png");
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    min-height: 400px;
+    margin: 30px;
+}
+
+#fb-logo{
+    background-image: url("./images/fb.png");
+    background-size: cover;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    margin: 60px;
+}
+
+#insta-logo{
+    background-image: url("./images/insta.png");
+    background-size: cover;
+    background-position: center;
+    width: 60px;
+    height: 60px;
+    margin: 60px;
+}
+

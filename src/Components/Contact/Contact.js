@@ -20,16 +20,11 @@ export default class Contact extends Component{
     render(){
 
     return(
-        <div className="dashboard">
+        <div className="contact" style={{textAlign:"center"}}>
 
             <h1> Contact Us</h1>
-            number
-            form
-            {/* <Form>
-                <input></input>
-                <input></input>
-                <input></input>
-            </Form> */}
+            <p>919-916-0571</p>
+            <p>ThatsGoodChocolate@Gmail.com</p>
         </div>
     )
   }

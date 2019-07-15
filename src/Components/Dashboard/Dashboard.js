@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
 // import axios from 'axios';
 // import {connect} from 'react-redux';
 // import {updateVehicleProfiles} from '../../ducks/reducer';
@@ -23,7 +25,7 @@ export default class Dashboard extends Component{
         <div className="dashboard" style={{display: "flex", flexDirection:"column"}}>
 
             <div className= "banner">
-            <a href='https://squareup.com/store/thatsgoodchocolate'><button style={{backgroundColor: "rgb(124, 6, 6)", color:"white", position:"bottom-center", borderRadius:"5%",borderColor:"transparent", width: "20%", height:"10%", fontWeight:"bold", position:"absolute", bottom:"-60px", left:"45%"}}>Shop Now</button></a>
+            <button id="shop-now"><a href='https://squareup.com/store/thatsgoodchocolate' style={{textDecoration: "none", color:"white"}}>Shop Now</a></button>
             </div>
             <div style={{textAlign:'center'}}>
               <h2>Featured Products</h2>
@@ -38,12 +40,15 @@ export default class Dashboard extends Component{
                   </div>
               </div>
             </div>
-            <h2 style={{textAlign:'center', marginTop:'50px'}}>Gift Guide</h2>
+            <h2 style={{textAlign:'center', marginTop:'50px', fontStyle:"italic"}}>Gift Guide</h2>
             <div id="gift-ideas"></div>
 
             <h2 style={{textAlign:'center'}}>Featured In</h2>
-            <div id="article-links"></div>
-
+            <div id="articles" style={{display:'flex', flexDirection:'row', justifyContent:'center'}}>
+            <a href="https://www.wral.com/-that-s-good-chocolate-is-what-zebulon-mom-grandma-creates/15324117/" target="_"><div id="article-link1"></div></a>
+            <a href="https://wakemedvoices.org/2016/05/thats-good-chocolate/" target="_"><div id="article-link2"></div></a>
+            </div>
+            
             <h2 style={{textAlign:'center'}}>Follow Us</h2>
             <div id="social-media" style={{display:'flex', flexDirection:'row', justifyContent:'center'}}>
                 <div id="fb-logo"></div>

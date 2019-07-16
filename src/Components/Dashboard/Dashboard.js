@@ -30,14 +30,14 @@ export default class Dashboard extends Component{
             <div style={{textAlign:'center'}}>
               <h2>Featured Products</h2>
               <div className="featured-row" style={{paddingBottom:'20px'}}>
-                  <div >
+                  <a href='https://squareup.com/store/thatsgoodchocolate' style={{textDecoration: "none", color: "black"}}>
                     <div id="clusters-featured"></div>
                     <p>Clusters</p>
-                  </div>
-                  <div>
+                  </a>
+                  <a href='https://squareup.com/store/thatsgoodchocolate' style={{textDecoration: "none", color: "black"}}>
                     <div id="toffee-featured"></div>
                     <p>Toffee</p>
-                  </div>
+                  </a>
               </div>
             </div>
             <h2 style={{textAlign:'center', marginTop:'50px', fontStyle:"italic"}}>Gift Guide</h2>

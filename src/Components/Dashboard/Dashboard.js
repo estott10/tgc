@@ -51,8 +51,8 @@ export default class Dashboard extends Component{
             
             <h2 style={{textAlign:'center'}}>Follow Us</h2>
             <div id="social-media" style={{display:'flex', flexDirection:'row', justifyContent:'center'}}>
-                <div id="fb-logo"></div>
-                <div id="insta-logo"></div>
+                <a id="fb-logo" href="https://www.facebook.com/ThatsGoodChocolate" target="_"><div></div></a>
+                <a id="insta-logo" href="https://www.instagram.com/thatsgoodchocolate" target="_"><div></div></a>
             </div>
             
         </div>

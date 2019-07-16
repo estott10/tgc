@@ -23,7 +23,7 @@ export default class Contact extends Component{
         <div className="contact" style={{textAlign:"center"}}>
 
             <h1> Contact Us</h1>
-            <p>919-916-0571</p>
+            <p>919-523-5237</p>
             <p>ThatsGoodChocolate@Gmail.com</p>
         </div>
     )

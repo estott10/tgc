@@ -5,9 +5,12 @@ export default function Header(){
 
     return(
         <div className= "header">
+            <div className="sale-banner" style={{ textDecoration: 'none', color: 'white', margin:'0px'}}>
+                <p style={{textAlign: 'center', marginBottom:'10px', marginTop: '0px', fontStyle:"italic", fontSize:"100%"}}>We're So Glad You're Here</p>
+                </div>
             
             <div className="logo-menu" style={{display: "flex", flexDirection:"row", justifyContent:"space-between"}}>
-                <div className="logo"><a href="https://squareup.com/store/thatsgoodchocolate" style={{width: "100px", height: "100px"}}><div></div></a></div>
+                <div className="logo"><a href="https://squareup.com/store/thatsgoodchocolate" style={{width: "200px", height: "200px"}}><div></div></a></div>
                 <div className="menu" style={{ display: 'flex', color: 'black', flexDirection: 'row', justifyContent: 'space-between'}}>
                     <p><a href="https://squareup.com/store/thatsgoodchocolate" style={{ textDecoration: 'none', color: 'black' }}>Order Here</a></p>
                     <p><Link to="/locations" style={{ textDecoration: 'none', color: 'black', padding: "0px 20px", margin: '0px' }}>Locations</Link></p>
@@ -16,9 +19,6 @@ export default function Header(){
                     <p><Link to="/" style={{ textDecoration: 'none', color: 'black', padding: "0px 20px", margin: '0px' }}>Home</Link></p>
                 </div>
             </div>
-            <div className="sale-banner" style={{ textDecoration: 'none', color: 'white', marginBottom:'0px'}}>
-                <p style={{textAlign: 'center', marginBottom:'0px', fontStyle:"italic", fontSize:"100%"}}>We're Glad You're Here</p>
-                </div>
         </div>
 
     )

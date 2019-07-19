@@ -21,11 +21,14 @@ h2, p{
 }
 
 .banner{
-    background-image: url("./images/banner-collage.png");
-    background-size: auto 100%;
-    background-repeat: repeat-x;
+    background-image: url("./images/TGCBannerMedium.png");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-    min-height: 600px;
+    min-height: 700px;
+    width: 100%;
+    object-fit: cover;
+    object-fit: cover;
     position: relative;
 }
 
@@ -142,7 +145,7 @@ h2, p{
     width: 20%; 
     height:10%; 
     position:"absolute"; 
-    bottom: 20px;
-    left: 40%;
+    bottom: 300px;
+    left: 12%;
 }
 

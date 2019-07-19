@@ -31,11 +31,11 @@ export default class Dashboard extends Component{
               <h2>Featured Products</h2>
               <div className="featured-row" style={{paddingBottom:'20px'}}>
                   <a href='https://squareup.com/store/thatsgoodchocolate' style={{textDecoration: "none", color: "black"}}>
-                    <div id="toffee-featured"></div>
+                    <div id="toffee-featured" style={{borderRadius:"20px"}}></div>
                     <p>Toffee</p>
                   </a>
                   <a href='https://squareup.com/store/thatsgoodchocolate' style={{textDecoration: "none", color: "black"}}>
-                    <div id="clusters-featured"></div>
+                    <div id="clusters-featured" style={{borderRadius:"20px"}}></div>
                     <p>Clusters</p>
                   </a>
               </div>

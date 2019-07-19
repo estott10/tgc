@@ -21,14 +21,13 @@ h2, p{
 }
 
 .banner{
-    background-image: url("./images/TGCBannerAltLarge.png");
+    background-image: url("./images/TGCBannerL.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 700px;
+    min-height: 750px;
     width: 100%;
-    object-fit: cover;
-    object-fit: cover;
+    object-fit: contain;
     position: relative;
 }
 

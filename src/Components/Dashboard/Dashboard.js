@@ -27,6 +27,9 @@ export default class Dashboard extends Component{
             <div className= "banner">
             <button id="shop-now"><a href='https://squareup.com/store/thatsgoodchocolate' style={{textDecoration: "none", color:"white"}}>Shop Now</a></button>
             </div>
+            <div id="mobile-buttonDiv">
+            <button id="shop-nowMobile"><a href='https://squareup.com/store/thatsgoodchocolate' style={{textDecoration: "none", color:"white"}}>Shop Now</a></button>
+            </div>
             <div style={{textAlign:'center'}}>
               <h2>Featured Products</h2>
               <div className="featured-row" style={{paddingBottom:'20px'}}>
@@ -40,7 +43,7 @@ export default class Dashboard extends Component{
                   </a>
               </div>
             </div>
-            <h2 style={{textAlign:'center', marginTop:'50px', fontStyle:"italic"}}>Gift Guide</h2>
+            <h2 id="gift-header" style={{textAlign:'center', marginTop:'50px', fontStyle:"italic"}}>Gift Guide</h2>
             <div id="gift-ideas"></div>
 
             <h2 style={{textAlign:'center', marginTop:"30px"}}>Featured In</h2>

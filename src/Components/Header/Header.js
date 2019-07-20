@@ -9,7 +9,7 @@ export default function Header(){
                 <p style={{textAlign: 'center', marginBottom:'10px', marginTop: '0px', fontStyle:"italic", fontSize:"100%"}}>We're So Glad You're Here</p>
                 </div>
             
-            <div className="logo-menu" style={{display: "flex", flexDirection:"row", justifyContent:"space-between"}}>
+            <div className="logo-menu" id="header-menu" style={{display: "flex", flexDirection:"row", justifyContent:"space-between"}}>
                 <div className="logo" style={{width: "100px", height: "100px"}}><a href="https://squareup.com/store/thatsgoodchocolate" style={{width: "200px", height: "200px"}}><div></div></a></div>
                 <div className="menu" style={{ display: 'flex', color: 'black', flexDirection: 'row', justifyContent: 'space-between'}}>
                     <p><a href="https://squareup.com/store/thatsgoodchocolate" style={{ textDecoration: 'none', color: 'black' }}>Order Here</a></p>

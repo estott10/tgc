@@ -22,10 +22,10 @@ html{
             display: flex;
             flex-direction: column;
             align-items: center !important;
-            background-image: url("./images/TGCMobileBanner.png") !important;
+            background-image: url("./images/TGCMobileMedium.png") !important;
+            background-size: auto !important;
             background-position: center !important;
             position: relative !important;
-            object-fit: cover !important;
         }
         .logo-menu{
             display: none !important;
@@ -66,6 +66,7 @@ html{
             padding: 10px !important;
             position: center !important;
             margin: 10px !important;
+            overflow-x: scroll !important;
         }
        #social-media{
             flex-direction: column !important;
@@ -74,8 +75,11 @@ html{
         }
 
         #article-link1, #article-link2{
-            margin: 10% !important;
+            margin: 10% 0px !important;
             position: center !important;
+            min-width: 300px !important;
+            object-fit: scale-down !important;
+            overflow-x: scroll !important;
         }
 
         #fb-logo, #insta-logo{
@@ -88,6 +92,9 @@ html{
             display: flex !important;
             flex-direction: column !important;
             align-items: center !important;
+        }
+        #about-us-image{
+            display: none;
         }
       }
 
@@ -199,8 +206,8 @@ h2, p{
     background-image: url("./images/wral-com-vector-logo.png");
     background-size: cover;
     background-position: center;
-    min-width: 300px;
-    min-height: 60px;
+    min-width: 400px;
+    min-height: 80px;
     margin-left: 60px;
 }
 
@@ -208,8 +215,8 @@ h2, p{
     background-image: url("./images/wake-med-logo.png");
     background-size: cover;
     background-position: center;
-    min-width: 300px;
-    min-height: 70px;
+    min-width: 325px;
+    min-height: 80px;
     margin-left: 60px;
 }
 

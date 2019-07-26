@@ -111,7 +111,7 @@ h2, p{
 
 .banner{
     background-image: url("./images/TGCBannerL.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 680px;

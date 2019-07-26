@@ -8,7 +8,7 @@ html{
     margin: 0px;
     }
 
-    @media only screen and (max-width: 850px) {
+    @media only screen and (max-width: 800px) {
         html{
             object-fit: contain;
             box-sizing: border-box;
@@ -115,7 +115,7 @@ h2, p{
     background-repeat: no-repeat;
     background-position: center;
     min-height: 680px;
-    width: 100%;
+    width: 95%;
     object-fit: contain;
     position: relative;
 }

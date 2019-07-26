@@ -19,8 +19,8 @@ html{
             position: center !important;
         }
         .banner{
-            display: flex;
-            flex-direction: column;
+            display: flex !important;
+            flex-direction: column !important;
             align-items: center !important;
             background-image: url("./images/TGCMobileMedium.png") !important;
             background-size: auto !important;
@@ -111,7 +111,7 @@ h2, p{
 
 .banner{
     background-image: url("./images/TGCBannerL.png");
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 680px;

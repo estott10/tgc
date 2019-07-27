@@ -8,96 +8,6 @@ html{
     margin: 0px;
     }
 
-    @media only screen and (max-width: 800px) {
-        html{
-            object-fit: contain !important;
-            box-sizing: border-box !important;
-        }
-        .dashboard{
-            display: flex !important;
-            flex-direction: column !important;
-            position: center !important;
-        }
-        .banner{
-            display: flex !important;
-            flex-direction: column !important;
-            align-items: center !important;
-            background-image: url("./images/TGCMobileMedium.png") !important;
-            background-size: auto !important;
-            background-position: center !important;
-            position: relative !important;
-        }
-        .logo-menu{
-            display: none !important;
-        }
-        #footer, #footer-menu{
-            display: flex !important;
-            flex-direction: column !important;
-            justify-content: center !important;
-            align-items: center;
-        }
-        #mobile-buttonDiv{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-        }
-        #shop-nowMobile {
-            /* bottom: 10px !important;
-            left: 40% !important; */
-            text-align: center !important;
-            position: center !important;
-            color: #fff !important;
-            padding: 12.5px 30px !important;
-            font-size: 20px !important;
-            font-weight: 500 !important;
-            border-radius: 2px !important;
-            font-family: sans-serif !important;
-            background-color: rgb(124, 6, 6) !important; 
-            border-color:grey !important; 
-            width: 40% !important; 
-            height:40% !important; 
-        }
-        #shop-now{
-            display: none !important;
-        }
-        #articles{
-            flex-direction: column !important;
-            padding: 10px !important;
-            position: center !important;
-            margin: 10px !important;
-            overflow-x: scroll !important;
-        }
-       #social-media{
-            flex-direction: column !important;
-            position: center !important;
-            align-items: center;
-        }
-
-        #article-link1, #article-link2{
-            margin: 10% 0px !important;
-            position: center !important;
-            min-width: 300px !important;
-            object-fit: scale-down !important;
-            overflow-x: scroll !important;
-        }
-
-        #fb-logo, #insta-logo{
-            margin: 10% !important;
-        }
-        #gift-ideas, #gift-header{
-            display: none !important;
-        }
-        .featured-row{
-            display: flex !important;
-            flex-direction: column !important;
-            align-items: center !important;
-        }
-        #about-us-image{
-            display: none;
-        }
-      }
-
 h2, p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -241,3 +151,92 @@ h2, p{
     display: none;
 }
 
+@media only screen and (max-width: 800px) {
+    html{
+        object-fit: contain !important;
+        box-sizing: border-box !important;
+    }
+    .dashboard{
+        display: flex !important;
+        flex-direction: column !important;
+        position: center !important;
+    }
+    .banner{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        background-image: url("./images/TGCMobileMedium.png") !important;
+        background-size: auto !important;
+        background-position: center !important;
+        position: relative !important;
+    }
+    .logo-menu{
+        display: none !important;
+    }
+    #footer, #footer-menu{
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center;
+    }
+    #mobile-buttonDiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #shop-nowMobile {
+        /* bottom: 10px !important;
+        left: 40% !important; */
+        text-align: center !important;
+        position: center !important;
+        color: #fff !important;
+        padding: 12.5px 30px !important;
+        font-size: 20px !important;
+        font-weight: 500 !important;
+        border-radius: 2px !important;
+        font-family: sans-serif !important;
+        background-color: rgb(124, 6, 6) !important; 
+        border-color:grey !important; 
+        width: 40% !important; 
+        height:40% !important; 
+    }
+    #shop-now{
+        display: none !important;
+    }
+    #articles{
+        flex-direction: column !important;
+        padding: 10px !important;
+        position: center !important;
+        margin: 10px !important;
+        overflow-x: scroll !important;
+    }
+   #social-media{
+        flex-direction: column !important;
+        position: center !important;
+        align-items: center;
+    }
+
+    #article-link1, #article-link2{
+        margin: 10% 0px !important;
+        position: center !important;
+        min-width: 300px !important;
+        object-fit: scale-down !important;
+        overflow-x: scroll !important;
+    }
+
+    #fb-logo, #insta-logo{
+        margin: 10% !important;
+    }
+    #gift-ideas, #gift-header{
+        display: none !important;
+    }
+    .featured-row{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    #about-us-image{
+        display: none;
+    }
+}

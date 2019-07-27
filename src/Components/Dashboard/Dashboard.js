@@ -25,19 +25,19 @@ export default class Dashboard extends Component{
         <div className="dashboard" style={{display: "flex", flexDirection:"column"}}>
 
             <div className= "banner">
-            <button id="shop-now"><a href='https://squareup.com/store/goodchocolate' style={{textDecoration: "none", color:"white"}}>Shop Now</a></button>
+            <button id="shop-now"><a href='https://squareup.com/store/thatsgoodchocolate' style={{textDecoration: "none", color:"white"}}>Shop Now</a></button>
             </div>
             <div id="mobile-buttonDiv">
-            <button id="shop-nowMobile"><a href='https://squareup.com/store/goodchocolate' style={{textDecoration: "none", color:"white"}}>Shop Now</a></button>
+            <button id="shop-nowMobile"><a href='https://squareup.com/store/thatsgoodchocolate' style={{textDecoration: "none", color:"white"}}>Shop Now</a></button>
             </div>
             <div style={{textAlign:'center'}}>
               <h2>Featured Products</h2>
               <div className="featured-row" style={{paddingBottom:'20px'}}>
-                  <a href='https://squareup.com/store/goodchocolate' style={{textDecoration: "none", color: "black"}}>
+                  <a href='https://squareup.com/store/thatsgoodchocolate' style={{textDecoration: "none", color: "black"}}>
                     <div id="toffee-featured" style={{borderRadius:"20px"}}></div>
                     <p>Toffee</p>
                   </a>
-                  <a href='https://squareup.com/store/goodchocolate' style={{textDecoration: "none", color: "black"}}>
+                  <a href='https://squareup.com/store/thatsgoodchocolate' style={{textDecoration: "none", color: "black"}}>
                     <div id="clusters-featured" style={{borderRadius:"20px"}}></div>
                     <p>Clusters</p>
                   </a>

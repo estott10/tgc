@@ -147,36 +147,65 @@ h2, p{
     left: 12%;
 }
 
+ #shop-now:hover{
+    background-color: rgb(187, 74, 97);
+    cursor: pointer;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+#clusters-featured:hover{
+    background: url("./images/clusters-featured.jpg"), rgba(128, 128, 128, 0.144);
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    opacity: 0.3;
+}
+
+#toffee-featured:hover{
+    background: url("./images/toffee-featured.jpg"), rgba(128, 128, 128, 0.144);
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    min-width: 300px;
+    opacity: 0.3;
+}
+
 #shop-now-mobile{
+    display: none;
+}
+#mobile-buttonDiv{
     display: none;
 }
 
 @media only screen and (max-width: 800px) {
     html{
-        object-fit: contain !important;
-        box-sizing: border-box !important;
+        object-fit: contain;
+        box-sizing: border-box;
     }
     .dashboard{
-        display: flex !important;
-        flex-direction: column !important;
-        position: center !important;
+        display: flex;
+        flex-direction: column;
+        position: center;
     }
     .banner{
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
-        background-image: url("./images/TGCMobileMedium.png") !important;
-        background-size: auto !important;
-        background-position: center !important;
-        position: relative !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-image: url("./images/TGCMobileMedium.png");
+        background-size: auto;
+        background-position: center;
+        position: relative;
     }
     .logo-menu{
-        display: none !important;
+        display: none;
     }
     #footer, #footer-menu{
-        display: flex !important;
-        flex-direction: column !important;
-        justify-content: center !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
     #mobile-buttonDiv{
@@ -186,55 +215,55 @@ h2, p{
         align-items: center;
     }
     #shop-nowMobile {
-        /* bottom: 10px !important;
-        left: 40% !important; */
-        text-align: center !important;
-        position: center !important;
-        color: #fff !important;
-        padding: 12.5px 30px !important;
-        font-size: 20px !important;
-        font-weight: 500 !important;
-        border-radius: 2px !important;
-        font-family: sans-serif !important;
-        background-color: rgb(124, 6, 6) !important; 
-        border-color:grey !important; 
-        width: 40% !important; 
-        height:40% !important; 
+        /* bottom: 10px;
+        left: 40%; */
+        text-align: center;
+        position: center;
+        color: #fff;
+        padding: 12.5px 30px;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 2px;
+        font-family: sans-serif;
+        background-color: rgb(124, 6, 6); 
+        border-color:grey; 
+        width: 40%; 
+        height:40%; 
     }
     #shop-now{
-        display: none !important;
+        display: none;
     }
     #articles{
-        flex-direction: column !important;
-        padding: 10px !important;
-        position: center !important;
-        margin: 10px !important;
-        overflow-x: scroll !important;
+        flex-direction: column;
+        padding: 10px;
+        position: center;
+        margin: 10px;
+        overflow-x: scroll;
     }
    #social-media{
-        flex-direction: column !important;
-        position: center !important;
+        flex-direction: column;
+        position: center;
         align-items: center;
     }
 
     #article-link1, #article-link2{
-        margin: 10% 0px !important;
-        position: center !important;
-        min-width: 300px !important;
-        object-fit: scale-down !important;
-        overflow-x: scroll !important;
+        margin: 10% 0px;
+        position: center;
+        min-width: 300px;
+        object-fit: scale-down;
+        overflow-x: scroll;
     }
 
     #fb-logo, #insta-logo{
-        margin: 10% !important;
+        margin: 10%;
     }
     #gift-ideas, #gift-header{
-        display: none !important;
+        display: none;
     }
     .featured-row{
-        display: flex !important;
-        flex-direction: column !important;
-        align-items: center !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     #about-us-image{
         display: none;

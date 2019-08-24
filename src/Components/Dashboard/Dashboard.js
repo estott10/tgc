@@ -13,11 +13,9 @@ export default class Dashboard extends Component{
     super(props)
 
     this.state = {
-      userid: this.props.userid,
-      vehicle_profiles: []
+     
     }
   }
-
 
     render(props){
 

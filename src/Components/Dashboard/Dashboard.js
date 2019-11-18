@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Button from '@material-ui/core/Button';
+// import { makeStyles } from '@material-ui/core/styles';
+// import Button from '@material-ui/core/Button';
 // import axios from 'axios';
 // import {connect} from 'react-redux';
 // import {updateVehicleProfiles} from '../../ducks/reducer';
@@ -23,19 +23,19 @@ export default class Dashboard extends Component{
         <div className="dashboard" style={{display: "flex", flexDirection:"column"}}>
 
             <div className= "banner">
-            <button id="shop-now"><a href='https://squareup.com/store/thatsgoodchocolate' style={{textDecoration: "none", color:"white"}}>Shop Now</a></button>
+            <button id="shop-now"><a href='https://thatsgoodchocolate-107815.square.site' style={{textDecoration: "none", color:"white"}}>Shop Now</a></button>
             </div>
             <div id="mobile-buttonDiv">
-            <button id="shop-nowMobile"><a href='https://squareup.com/store/thatsgoodchocolate' style={{textDecoration: "none", color:"white"}}>Shop Now</a></button>
+            <button id="shop-nowMobile"><a href='https://thatsgoodchocolate-107815.square.site' style={{textDecoration: "none", color:"white"}}>Shop Now</a></button>
             </div>
             <div style={{textAlign:'center'}}>
               <h2>Featured Products</h2>
               <div className="featured-row" style={{paddingBottom:'20px'}}>
-                  <a href='https://squareup.com/store/thatsgoodchocolate' style={{textDecoration: "none", color: "black"}}>
+                  <a href='https://thatsgoodchocolate-107815.square.site' style={{textDecoration: "none", color: "black"}}>
                     <div id="toffee-featured" style={{borderRadius:"20px"}}></div>
                     <p>Toffee</p>
                   </a>
-                  <a href='https://squareup.com/store/thatsgoodchocolate' style={{textDecoration: "none", color: "black"}}>
+                  <a href='https://thatsgoodchocolate-107815.square.site' style={{textDecoration: "none", color: "black"}}>
                     <div id="clusters-featured" style={{borderRadius:"20px"}}></div>
                     <p>Clusters</p>
                   </a>

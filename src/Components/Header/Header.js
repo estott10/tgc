@@ -6,8 +6,8 @@ export default function Header(){
     return(
         <div className= "header">
             <div className="sale-banner" style={{ textDecoration: 'none', color: 'white', margin:'0px'}}>
-                <p style={{textAlign: 'center', marginBottom:'10px', marginTop: '0px', fontSize:"100%"}}> 1 Day Left to Order for Gauranteed Delivery By Christmas</p>
-                <p style={{textAlign: 'center', marginBottom:'10px', marginTop: '0px', fontStyle:"italic", fontSize:"100%"}}>Orders placed by Thursday, December 19th at 5PM EST are expected to arrive on or before December 24th. </p>
+                <p style={{textAlign: 'center', marginBottom:'10px', marginTop: '0px', fontSize:"100%"}}> Happy Holidays and Thanks for Visiting!</p>
+                <p style={{textAlign: 'center', marginBottom:'10px', marginTop: '0px', fontStyle:"italic", fontSize:"100%"}}> We are currently closed for the holidays. Any orders placed will not be fullfilled until Wednesday, January 1st. </p>
                 </div>
             
             <div className="logo-menu" id="header-menu" style={{display: "flex", flexDirection:"row", justifyContent:"space-between"}}>
